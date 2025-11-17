@@ -1,139 +1,54 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SmartSolutions</title>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>موقعي النهائي</title>
+<style>
+body {margin:0;font-family:Arial,sans-serif;background:#f0f0f0;color:#333;}
+header {background:#4C7BFF;color:white;padding:20px;text-align:center;}
+header h1{margin:0;}
+.hero {text-align:center;padding:50px 20px;}
+.hero h2{font-size:28px;margin-bottom:10px;}
+.hero p{font-size:16px;max-width:600px;margin:auto;}
+.btn {display:inline-block;margin-top:15px;padding:10px 20px;background:#4C7BFF;color:white;text-decoration:none;border-radius:5px;}
+.btn:hover{background:#345ce0;}
+.features {display:flex;justify-content:center;gap:15px;flex-wrap:wrap;padding:30px 10px;}
+.card {background:white;padding:20px;width:250px;border-radius:8px;box-shadow:0 3px 8px rgba(0,0,0,0.1);text-align:center;}
+.card h3{color:#4C7BFF;}
+footer{background:#222;color:white;text-align:center;padding:15px;}
+</style>
+</head>
+<body>
 
-    <style>
-      body {
-        margin: 0;
-        font-family: "Cairo", sans-serif;
-        background: #f5f6fa;
-        color: #333;
-      }
+<header>
+<h1>موقعي النهائي</h1>
+</header>
 
-      /* الهيدر */
-      header {
-        background: linear-gradient(135deg, #4c7bff, #6c4cff);
-        padding: 25px;
-        text-align: center;
-        color: white;
-      }
+<section class="hero">
+<h2>مرحبًا بك في موقعي!</h2>
+<p>هذا موقع HTML بسيط، كل شيء مدمج داخل هذا الملف فقط، بدون أي ملفات خارجية.</p>
+<a href="#" class="btn">ابدأ الآن</a>
+</section>
 
-      header h1 {
-        margin: 0;
-        font-size: 36px;
-        font-weight: 700;
-      }
+<section class="features">
+<div class="card">
+<h3>ميزة 1</h3>
+<p>مثال على بطاقة مدمجة داخل نفس الملف.</p>
+</div>
+<div class="card">
+<h3>ميزة 2</h3>
+<p>يمكنك تعديل النصوص والألوان بسهولة داخل هذا الملف.</p>
+</div>
+<div class="card">
+<h3>ميزة 3</h3>
+<p>يعمل مباشرة عند فتح الملف في أي متصفح.</p>
+</div>
+</section>
 
-      /* القسم الرئيسي */
-      .hero {
-        text-align: center;
-        padding: 60px 20px;
-      }
+<footer>
+جميع الحقوق محفوظة © 2025
+</footer>
 
-      .hero h2 {
-        font-size: 30px;
-        margin-bottom: 15px;
-      }
-
-      .hero p {
-        font-size: 18px;
-        max-width: 600px;
-        margin: auto;
-        line-height: 1.7;
-      }
-
-      .btn {
-        display: inline-block;
-        margin-top: 25px;
-        padding: 12px 30px;
-        background: #4c7bff;
-        color: white;
-        border-radius: 8px;
-        font-size: 18px;
-        text-decoration: none;
-        transition: 0.3s;
-      }
-
-      .btn:hover {
-        background: #345ce0;
-      }
-
-      /* البطاقات */
-      .features {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        flex-wrap: wrap;
-        padding: 40px 10px;
-      }
-
-      .card {
-        background: white;
-        padding: 25px;
-        width: 280px;
-        border-radius: 12px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        transition: 0.3s;
-        text-align: center;
-      }
-
-      .card:hover {
-        transform: translateY(-5px);
-        box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-      }
-
-      .card h3 {
-        margin-bottom: 10px;
-        color: #4c7bff;
-      }
-
-      /* الفوتر */
-      footer {
-        background: #222;
-        color: white;
-        text-align: center;
-        padding: 20px;
-        margin-top: 30px;
-        font-size: 14px;
-      }
-    </style>
-  </head>
-
-  <body>
-    <header>
-      <h1>SmartSolutions</h1>
-      <p>حلول تقنية ذكية تسرّع نجاح مشروعك</p>
-    </header>
-
-    <section class="hero">
-      <h2>منصة تجمع كل أدواتك في مكان واحد</h2>
-      <p>
-        نقدّم خدمات تساعد أصحاب المشاريع على إدارة أعمالهم بسهولة من خلال أدوات
-        مبتكرة تعتمد على الذكاء الاصطناعي.
-      </p>
-      <a href="#" class="btn">ابدأ الآن</a>
-    </section>
-
-    <section class="features">
-      <div class="card">
-        <h3>تحليل البيانات</h3>
-        <p>احصل على تقارير دقيقة وسهلة الفهم تساعدك على اتخاذ القرار الصحيح.</p>
-      </div>
-
-      <div class="card">
-        <h3>أتمتة المهام</h3>
-        <p>وفر وقتك عن طريق أتمتة المهام الروتينية اليومية.</p>
-      </div>
-
-      <div class="card">
-        <h3>دعم فني 24/7</h3>
-        <p>فريق الدعم جاهز لمساعدتك طوال الوقت دون توقف.</p>
-      </div>
-    </section>
-
-    <footer>جميع الحقوق محفوظة © 2025 — SmartSolutions</footer>
-  </body>
+</body>
 </html>
